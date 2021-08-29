@@ -1,0 +1,52 @@
+\chapter{Fundamentação}\label{chp:FUNDAMENTACAO}
+\section{Twitter}
+O Twitter foi escolhido como nossa rede social em detrimento a outras como Facebook ou Instagram por possuir uma política mais liberal quanto ao acesso aos dados do usuário. Mesmo no acesso gratuito, a API do Twitter permite obter muitos dados de um determinado usuário, possibilitando a coleta de metadados de um perfil, os seus tweets e também os dados de quem ele se relaciona.  
+
+\section{Problema de Classificação}
+Problemas de classificação são comuns no nosso dia a dia. Mesmo que de forma inconsciente, classificamos coisas diaramente. Era esperado então que, em algum momento, com a evolução dos computadores, pudéssemos delegar esse tipo de problema para as máquinas.
+
+De forma geral, esse tipo de problema consiste em decidir se um objeto pertence a uma determinada classe a partir de um conjunto de dados ou informações sobre esse determinado objeto. Geralmente, esse processo de aprender a classificar é supervisionado. Ou seja, sabemos a resposta correta mesmo antes do processo de aprendizado. 
+
+\section{Bots}
+
+\section{Revisão da Literatura}
+
+De forma geral, as abordagens que consistem em aprendizado de máquina encontradas na literatura podem ser divididas de acordo com o tipo das features utilizadas, que podem ser: 
+\begin{enumerate}
+    \item Dados do Usuário
+    \item Tweets de um Usuário
+    \item Dados da Vizinhança de um Usuário
+\end{enumerate}
+
+\subsection{Análise dos dados do Usuário}
+Na API do Twitter temos acesso a diversos dados relacionados a um usuário. Contudo, nem todos possuem valor para as análises. Portanto, somentes os dados relevantes são mostrados na Tabela 1.
+
+
+
+\begin{table}[]
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Dados do Usuário}& \textbf{Tipo} & \textbf{Descrição} \\ \hline
+Name & Texto &Representa o nome do usuário \\ \hline
+Screen Name  & Texto  &  Representa o @ do usuário\\ \hline
+Location & Texto   & Localização definida pelo próprio usuário                             \\ \hline
+Url  & Texto   & URL atrelada ao perfil                            \\ \hline
+Protected & Booleano & Identifica se um perfil é protegido ou não \\ \hline
+Verified & Booleano& Identifica se um perfil é verificado ou não \\ \hline
+Followers Count & Inteiro & Número de seguidores \\ \hline
+Friends Count & Inteiro & Número de contas seguidas \\ \hline
+Listed Count & Inteiro & Número de listas em que um usuário é membro \\ \hline
+Favorite Counts & Inteiro & Número de publicações curtidas \\ \hline
+Statuses Count & Inteiro & Número total de Tweets/Retweets \\ \hline
+Profile Image Url & Texto & Link para a imagem de perfil da conta \\ \hline
+Default Profile & Booleano & Identifica se o usuário alterou tema ou background do perfil\\ \hline
+Created At & Texto & Data de criação da conta\\ \hline
+Default Profile Image & Booleano & Identifica se a imagem de perfil é a padrão ou não \\ \hline
+Geo Enabled & Booleano & Identifica se o usuário permite ser geolocalizado\\ \hline
+\end{tabular}
+\end{table}
+\subsection{Análise textual dos Tweets}
+
+\subsection{Análises utilizando Grafos}
+
+\subsection{Análises Híbridas}
